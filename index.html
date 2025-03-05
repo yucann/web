@@ -1,56 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davin Maritza Alfarrezal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Landing Page Davin</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .daginn {
+            font-size: 20px;
+            font-weight: 400;
+            color: #f4a261;
+        }
+
+        .daginn a {
+            text-decoration: none;
+            color: #e76f51;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .daginn a:hover {
+            color: #ffaf87;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #ddd;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Davin Maritza Alfarrezal</h1>
-            <p>Cloud Server Management | Anti-DDoS Specialist | Web Designer</p>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a student at SMP Negeri 65 Bandung, Indonesia, with a passion for cloud server management and web development. My expertise includes creating game panel servers, optimizing anti-DDoS protection with Cloudflare, and designing websites using WordPress.</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Cloud Server Management</li>
-            <li>Anti-DDoS Protection</li>
-            <li>Game Panel Setup</li>
-            <li>WordPress Web Design</li>
-        </ul>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Check out my latest projects:</p>
-        <ul>
-            <li>Game Panel Server with Pterodactyl</li>
-            <li>Cloudflare Anti-DDoS Setup</li>
-            <li>Custom WordPress Designs</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:davin1245@smp.belajar.id">davin1245@smp.belajar.id</a></p>
-        <p>WhatsApp: <a href="https://wa.me/6285747334379" target="_blank">+62 857-4733-4379</a></p>
-        <p>Blog: <a href="https://davinarchive.fun" target="_blank">davinarchive.fun</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Davin Maritza Alfarrezal. All Rights Reserved.</p>
-    </footer>
+
+    <div class="container">
+        <h1>Landing Page Davin</h1>
+        <p class="daginn">by <strong>Daginn</strong> | <a href="https://instagram.com/daginnphile" target="_blank">@daginnphile</a></p>
+    </div>
+
+    <p class="footer">Powered by Davin Hosting</p>
+
 </body>
 </html>
